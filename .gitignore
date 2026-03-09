@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+anytype-export-scripts/
+
+# Output
+export/
+*.export/
+
+anytype-export
+
+.env
+*.env
+credentials.json
+
+
+# Bun
+.bun/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo

@@ -1,0 +1,34 @@
+{
+  "name": "anytype-export",
+  "version": "1.2.0",
+  "description": "Export your Anytype spaces to Obsidian-compatible markdown",
+  "type": "module",
+  "bin": {
+    "anytype-export": "./src/cli.ts"
+  },
+  "scripts": {
+    "login": "bun run src/cli.ts login",
+    "export": "bun run src/cli.ts export",
+    "switch": "bun run src/cli.ts switch",
+    "status": "bun run src/cli.ts status",
+    "logout": "bun run src/cli.ts logout",
+    "start": "bun run src/cli.ts",
+    "build": "bun build ./src/cli.ts --compile --outfile anytype-export",
+    "test": "bun test tests/",
+    "test:watch": "bun test --watch tests/"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/bun": "latest",
+    "eslint": "^10.0.3",
+    "typescript-eslint": "^8.56.1"
+  },
+  "keywords": [
+    "anytype",
+    "obsidian",
+    "markdown",
+    "export",
+    "notes"
+  ],
+  "license": "MIT"
+}
