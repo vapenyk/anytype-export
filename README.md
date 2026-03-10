@@ -1,4 +1,6 @@
-# 🌿 anytype-export
+# anytype-export
+
+> Built with [Claude](https://claude.ai) by Anthropic.
 
 Export your [Anytype](https://anytype.io) notes to [Obsidian](https://obsidian.md)-compatible markdown — with all images, links, and tags preserved.
 
@@ -119,4 +121,8 @@ Everything stays on your machine. anytype-export talks only to the Anytype app r
 
 ## License
 
-MIT
+MIT — see [LICENSE](./LICENSE)
+
+---
+
+*Built with [Claude](https://claude.ai) by Anthropic*
