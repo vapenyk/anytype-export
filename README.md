@@ -22,19 +22,20 @@ bun run login
 bun run export
 ```
 
-**Install globally** — use `anytype-export` from anywhere:
-```bash
-bun install --global anytype-export
-anytype-export login
-anytype-export
-```
-
 **Compile to a standalone binary** — no Bun needed to run:
 ```bash
 bun run build
 ./anytype-export login
 ./anytype-export
 ```
+
+**Compile to a standalone Windows binary** — no Bun needed to run:
+```bash
+bun run buildW
+./anytype-export login
+./anytype-export
+```
+
 
 > The compiled binary runs on any machine — no Bun, no Node, no dependencies.
 

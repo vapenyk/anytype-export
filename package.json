@@ -14,6 +14,7 @@
     "logout": "bun run src/cli.ts logout",
     "start": "bun run src/cli.ts",
     "build": "bun build ./src/cli.ts --compile --outfile anytype-export",
+    "buildW": "bun build ./src/cli.ts --compile --target=bun-windows-x64 --outfile anytype-export",
     "test": "bun test tests/",
     "test:watch": "bun test --watch tests/"
   },
